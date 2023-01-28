@@ -57,7 +57,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
+    background: #4D5AE5;
 }
+.hero-button:focus,
+.hero-button:hover {
+    background: #404BBF;
+}
+
 
 /* ПЕРЕВАГИ */
 .advantage-h2 {
@@ -131,7 +138,12 @@ body {
 }
 .portfolio-button-list {
 }
-.portfolio-button {
+.portfolio-button:hover,
+.portfolio-button:focus  {
+    background: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+
 }
 .portfolio-h2 {
 }
