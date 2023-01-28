@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    background: #E5E5E5;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.header {
+}
+.header-navigat {
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.header-list {
+}
+.header-item {
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.header-address{
+    font-style: normal;
+}
+.header-contakt {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+
+}
+
+.portfolio-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* ПЕРЕВАГИ */
+.advantage-h2 {
+}
+.advantage-list {
+}
+.advantage-item {
+}
+.advantage-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.advantage-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* ЧИМ МИ ЗАЙМАЄМОСЬ */
+.skills {
+}
+.skills-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2E2F42;
+}
+.skills-list {
+}
+.skills-item {
+}
+/* OUR TEAM */
+.team-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2E2F42;
+}
+.team-list {
+}
+.team-item {
+}
+.team-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+/* footer */
+.footer {
+}
+.footer-link {
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5x;
+    color: #E7E9FC;
+}
+.portfolio {
+}
+.portfolio-h1 {
+}
+.portfolio-button-list {
+}
+.portfolio-button {
+}
+.portfolio-h2 {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    color: #2E2F42;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
