@@ -260,7 +260,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    
 }
 
 .team-item {
@@ -300,6 +299,74 @@ display: block;
 height: auto; */
 }
 
+
+/* PORTFOLIO */
+.portfolio {
+    padding-top: 96px;
+}
+.portfolio-title {
+}
+.portfolio-button-list {
+    display: flex;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.portfolio-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    border: none;
+    margin-right: 24px;
+    
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus  {
+    background: var(--accent-color);
+    color: var(--main-background);
+    cursor: pointer;
+}
+
+.portfolio-title-second {
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-card-wraper {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;  
+}
+
+.portfolio-title-picture {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primery-text-color);
+}
+
+.portfolio-imgs {
+    display: block;
+}
+
 /* footer */
 .footer {
     background-color: var(--title-text-color);
@@ -322,53 +389,4 @@ height: auto; */
  
 }
 .logo-web {
-}
-/* PORTFOLIO */
-.portfolio {
-    padding-top: 96px;
-}
-.portfolio-title {
-}
-.portfolio-button-list {
-    margin-bottom: 72px;
-
-}
-.portfolio-button {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--accent-color);
-    border: none;
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus  {
-    background: var(--accent-color);
-    color: var(--main-background);
-    cursor: pointer;
-
-}
-.portfolio-title-second {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-title-picture {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--title-text-color);
-    margin-bottom: 8px;
-}
-.portfolio-text {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--primery-text-color);
-}
-
-.portfolio-imgs {
-    margin-bottom: 32px;
 }
